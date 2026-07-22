@@ -53,8 +53,8 @@ Les principales sections de l'IG  sont :
 
 ### Dépendances
 
-{% lang-fragment dependency-table.xhtml %}
+{% include dependency-table.xhtml %}
 
 ### Propriété intellectuelle
 
-{% lang-fragment ip-statements.xhtml %}
+{% include ip-statements.xhtml %}
