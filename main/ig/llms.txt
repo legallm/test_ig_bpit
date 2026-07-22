@@ -1,0 +1,40 @@
+# ans.fhir.fr.test_ig_bpit#0.1.0: ANS IG Example(en)
+
+## Pages
+
+* [Accueil](en/index.md)
+* [Historique des versions](en/change-log.md)
+* [Contexte](en/contexte.md)
+* [Gestion du catalogue](en/gestion_catalogue.md)
+* [Licences](en/licences.md)
+* [Artifacts Summary](en/artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Compétences CodeSystem](en/CodeSystem-competence-code-system.md)
+* [Type de carte](en/CodeSystem-type-carte-code-system.md)
+
+### ValueSets
+
+* [EyeColor Value Set](en/ValueSet-EyeColorVS.md)
+* [Melting Pot Value Set](en/ValueSet-MeltingPotVS.md)
+* [ModifiedAdministrativeGender](en/ValueSet-ModifiedAdministrativeGender.md)
+* [Type Carte Value Set](en/ValueSet-TypeCarteVS.md)
+
+### Resource Profiles
+
+* [Patient français](en/StructureDefinition-fr-patient.md)
+
+### Extensions
+
+* [EyeColor](en/StructureDefinition-EyeColor.md)
+
+### ImplementationGuides
+
+* [ANS IG Example](en/ImplementationGuide-ans.fhir.fr.test_ig_bpit.md)
+
+### Examples
+
+* [frpatient-exemple (Patient)](en/Patient-frpatient-exemple.md)
