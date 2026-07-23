@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4f9fd55b-fe0e-4f5a-af9c-d7d28c63b572"/>
+  <id value="91a7d7c3-4a25-43e4-b4b9-0a09ee1c059c"/>
   <meta>
-    <lastUpdated value="2026-07-23T06:55:30.604+00:00"/>
+    <lastUpdated value="2026-07-23T07:15:05.872+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -14,25 +14,25 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion de tx.fhir.org basée sur SNOMED CT édition International 01-Feb 2025
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
               </span>
             </p>
-            <p>This value set contains 3 concepts</p>
+            <p>Ce jeu de valeur (ValueSet) contient 3 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
-                  <b>System</b>
+                  <b>Système</b>
                 </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>Display (en)</b>
+                  <b>Affichage (fr)</b>
                 </td>
                 <td>
-                  <b>Inactive</b>
+                  <b>Inactif</b>
                 </td>
                 <td>
                   <b>
@@ -54,17 +54,17 @@
                 <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/405738005">405738005</a>
                 </td>
-                <td>Blue colour</td>
+                <td/>
                 <td/>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;405738005&quot;, &quot;display&quot;: &quot;Blue colour&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;405738005&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;405738005&quot;&gt;&lt;display value=&quot;Blue colour&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;405738005&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -76,17 +76,17 @@
                 <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/371254008">371254008</a>
                 </td>
-                <td>Brown colour</td>
+                <td/>
                 <td/>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371254008&quot;, &quot;display&quot;: &quot;Brown colour&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371254008&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371254008&quot;&gt;&lt;display value=&quot;Brown colour&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371254008&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -98,17 +98,17 @@
                 <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/54662009">54662009</a>
                 </td>
-                <td>Green color</td>
-                <td>inactive</td>
+                <td/>
+                <td>inactif</td>
                 <td>inactive</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;54662009&quot;, &quot;display&quot;: &quot;Green color&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;54662009&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;54662009&quot;&gt;&lt;display value=&quot;Green color&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;54662009&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -120,7 +120,7 @@
         <name value="EyeColorVS"/>
         <title value="EyeColor Value Set"/>
         <status value="draft"/>
-        <date value="2026-07-23T06:55:30+00:00"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -129,13 +129,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2e414062-d83a-479c-9c65-51bec20f4d09"/>
-          <timestamp value="2026-07-23T06:56:00+00:00"/>
+          <identifier value="urn:uuid:3188fe19-b473-4154-8872-c4810789c333"/>
+          <timestamp value="2026-07-23T07:15:42+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="en"/>
+            <valueCode value="fr"/>
           </parameter>
           <parameter>
             <name value="count"/>
@@ -168,18 +168,195 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="405738005"/>
-            <display value="Blue colour"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="371254008"/>
-            <display value="Brown colour"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <inactive value="true"/>
             <code value="54662009"/>
-            <display value="Green color"/>
+            <property>
+              <code value="status"/>
+              <valueCode value="inactive"/>
+            </property>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/EyeColorVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion de tx.fhir.org basée sur SNOMED CT édition International 01-Feb 2025
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>Inactif</b>
+                </td>
+                <td>
+                  <b>
+                    <a href="http://hl7.org/fhir/concept-properties#status">status</a>
+                  </b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-405738005"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/405738005">405738005</a>
+                </td>
+                <td/>
+                <td/>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;405738005&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;405738005&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-371254008"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/371254008">371254008</a>
+                </td>
+                <td/>
+                <td/>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371254008&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371254008&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-54662009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/54662009">54662009</a>
+                </td>
+                <td/>
+                <td>inactif</td>
+                <td>inactive</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;54662009&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;54662009&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/EyeColorVS"/>
+        <version value="0.1.0"/>
+        <name value="EyeColorVS"/>
+        <title value="EyeColor Value Set"/>
+        <status value="draft"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:3188fe19-b473-4154-8872-c4810789c333"/>
+          <timestamp value="2026-07-23T07:15:42+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <property>
+            <code value="status"/>
+            <uri value="http://hl7.org/fhir/concept-properties#status"/>
+          </property>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="405738005"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="371254008"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <inactive value="true"/>
+            <code value="54662009"/>
             <property>
               <code value="status"/>
               <valueCode value="inactive"/>
@@ -303,7 +480,7 @@
         <name value="EyeColorVS"/>
         <title value="EyeColor Value Set"/>
         <status value="draft"/>
-        <date value="2026-07-23T06:55:30+00:00"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -312,8 +489,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2e414062-d83a-479c-9c65-51bec20f4d09"/>
-          <timestamp value="2026-07-23T06:56:00+00:00"/>
+          <identifier value="urn:uuid:33e21c16-3052-4d54-835a-f98546dfd9c3"/>
+          <timestamp value="2026-07-23T07:15:42+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -381,41 +558,41 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion from tx.fhir.org based on:</p>
+              <p>Expansion de tx.fhir.org basée sur :</p>
               <ul>
-                <li>SNOMED CT International edition 01-Feb 2025
+                <li>SNOMED CT édition International 01-Feb 2025
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Click to Copy URL" class="btn-copy"> </button>
+                    <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
                   </span>
                 </li>
                 <li>
                   <a href="CodeSystem-competence-code-system.html">codesystem Compétences CodeSystem v0.1.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+                    <button data-clipboard-text="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system|0.1.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
                   </span>
                 </li>
                 <li>
                   <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+                    <button data-clipboard-text="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system|0.1.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
                   </span>
                 </li>
               </ul>
             </div>
-            <p>This value set contains 7 concepts</p>
+            <p>Ce jeu de valeur (ValueSet) contient 7 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
-                  <b>System</b>
+                  <b>Système</b>
                 </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>Display (en)</b>
+                  <b>Affichage (fr)</b>
                 </td>
                 <td>
-                  <b>Definition</b>
+                  <b>Définition</b>
                 </td>
                 <td>
                   <b>JSON</b>
@@ -432,16 +609,16 @@
                 <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/405738005">405738005</a>
                 </td>
-                <td>Blue colour</td>
+                <td/>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;405738005&quot;, &quot;display&quot;: &quot;Blue colour&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;405738005&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;405738005&quot;&gt;&lt;display value=&quot;Blue colour&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;405738005&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -453,16 +630,16 @@
                 <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/371254008">371254008</a>
                 </td>
-                <td>Brown colour</td>
+                <td/>
                 <td/>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371254008&quot;, &quot;display&quot;: &quot;Brown colour&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371254008&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371254008&quot;&gt;&lt;display value=&quot;Brown colour&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371254008&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -474,16 +651,16 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-competence-code-system.html#competence-code-system-C01">C01</a>
                 </td>
-                <td>Anatomie et Cytologie pathologiques humaines</td>
+                <td/>
                 <td>Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;C01&quot;, &quot;display&quot;: &quot;Anatomie et Cytologie pathologiques humaines&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;C01&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;C01&quot;&gt;&lt;display value=&quot;Anatomie et Cytologie pathologiques humaines&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;C01&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -495,16 +672,16 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA">CPA</a>
                 </td>
-                <td>Carte de Personnel Autorisé</td>
+                <td/>
                 <td>La carte d'un personnel autorisé (CDA/CPA)</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPA&quot;, &quot;display&quot;: &quot;Carte de Personnel Autorisé&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPA&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPA&quot;&gt;&lt;display value=&quot;Carte de Personnel Autorisé&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPA&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -516,16 +693,16 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE">CPE</a>
                 </td>
-                <td>Carte de Personnel d'Etablissement</td>
+                <td/>
                 <td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPE&quot;, &quot;display&quot;: &quot;Carte de Personnel d'Etablissement&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPE&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPE&quot;&gt;&lt;display value=&quot;Carte de Personnel d'Etablissement&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPE&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -537,16 +714,16 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF">CPF</a>
                 </td>
-                <td>Carte de Professionnel de Santé en Formation</td>
+                <td/>
                 <td>La Carte de Professionnel de Santé en Formation (CPF).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPF&quot;, &quot;display&quot;: &quot;Carte de Professionnel de Santé en Formation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPF&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPF&quot;&gt;&lt;display value=&quot;Carte de Professionnel de Santé en Formation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPF&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -558,16 +735,16 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS">CPS</a>
                 </td>
-                <td>Carte de Professionnel de Santé</td>
+                <td/>
                 <td>La Carte de Professionnel de Santé (CPS).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPS&quot;, &quot;display&quot;: &quot;Carte de Professionnel de Santé&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPS&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPS&quot;&gt;&lt;display value=&quot;Carte de Professionnel de Santé&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPS&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -579,7 +756,7 @@
         <name value="MeltingPotVS"/>
         <title value="Melting Pot Value Set"/>
         <status value="draft"/>
-        <date value="2026-07-23T06:55:30+00:00"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -588,13 +765,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6254a092-72d2-4dc0-b498-e089aaa1bf86"/>
-          <timestamp value="2026-07-23T06:56:00+00:00"/>
+          <identifier value="urn:uuid:d68c84be-71c5-4a52-a515-001d1c3c9da9"/>
+          <timestamp value="2026-07-23T07:15:42+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="en"/>
+            <valueCode value="fr"/>
           </parameter>
           <parameter>
             <name value="count"/>
@@ -631,37 +808,318 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="405738005"/>
-            <display value="Blue colour"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="371254008"/>
-            <display value="Brown colour"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system"/>
             <code value="C01"/>
-            <display value="Anatomie et Cytologie pathologiques humaines"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
             <code value="CPA"/>
-            <display value="Carte de Personnel Autorisé"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
             <code value="CPE"/>
-            <display value="Carte de Personnel d'Etablissement"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
             <code value="CPF"/>
-            <display value="Carte de Professionnel de Santé en Formation"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
             <code value="CPS"/>
-            <display value="Carte de Professionnel de Santé"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/MeltingPotVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion de tx.fhir.org basée sur :</p>
+              <ul>
+                <li>SNOMED CT édition International 01-Feb 2025
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+                <li>
+                  <a href="CodeSystem-competence-code-system.html">codesystem Compétences CodeSystem v0.1.0 (CodeSystem)</a>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system|0.1.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+                <li>
+                  <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0 (CodeSystem)</a>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system|0.1.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p>Ce jeu de valeur (ValueSet) contient 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>Définition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-405738005"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/405738005">405738005</a>
+                </td>
+                <td/>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;405738005&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;405738005&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-371254008"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/371254008">371254008</a>
+                </td>
+                <td/>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;371254008&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;371254008&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system-C01"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-competence-code-system.html#competence-code-system-C01">C01</a>
+                </td>
+                <td/>
+                <td>Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;C01&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;C01&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system-CPA"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA">CPA</a>
+                </td>
+                <td/>
+                <td>La carte d'un personnel autorisé (CDA/CPA)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPA&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPA&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system-CPE"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE">CPE</a>
+                </td>
+                <td/>
+                <td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPE&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPE&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system-CPF"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF">CPF</a>
+                </td>
+                <td/>
+                <td>La Carte de Professionnel de Santé en Formation (CPF).</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPF&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPF&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system-CPS"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS">CPS</a>
+                </td>
+                <td/>
+                <td>La Carte de Professionnel de Santé (CPS).</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPS&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPS&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/MeltingPotVS"/>
+        <version value="0.1.0"/>
+        <name value="MeltingPotVS"/>
+        <title value="Melting Pot Value Set"/>
+        <status value="draft"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:d68c84be-71c5-4a52-a515-001d1c3c9da9"/>
+          <timestamp value="2026-07-23T07:15:42+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="405738005"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="371254008"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system"/>
+            <code value="C01"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
+            <code value="CPA"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
+            <code value="CPE"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
+            <code value="CPF"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
+            <code value="CPS"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -874,7 +1332,7 @@
         <name value="MeltingPotVS"/>
         <title value="Melting Pot Value Set"/>
         <status value="draft"/>
-        <date value="2026-07-23T06:55:30+00:00"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -883,8 +1341,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6254a092-72d2-4dc0-b498-e089aaa1bf86"/>
-          <timestamp value="2026-07-23T06:56:00+00:00"/>
+          <identifier value="urn:uuid:48973d45-1725-44f1-a647-e1ec64b7026b"/>
+          <timestamp value="2026-07-23T07:15:42+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -970,26 +1428,26 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
               <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://hl7.org/fhir/administrative-gender|4.0.1" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://hl7.org/fhir/administrative-gender|4.0.1" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
               </span>
             </p>
-            <p>This value set contains 3 concepts</p>
+            <p>Ce jeu de valeur (ValueSet) contient 3 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
-                  <b>System</b>
+                  <b>Système</b>
                 </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>Display (en)</b>
+                  <b>Affichage (fr)</b>
                 </td>
                 <td>
-                  <b>Definition</b>
+                  <b>Définition</b>
                 </td>
                 <td>
                   <b>JSON</b>
@@ -1006,16 +1464,16 @@
                 <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a>
                 </td>
-                <td>Male</td>
+                <td/>
                 <td>Male.</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1027,16 +1485,16 @@
                 <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a>
                 </td>
-                <td>Female</td>
+                <td/>
                 <td>Female.</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1048,16 +1506,16 @@
                 <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other">other</a>
                 </td>
-                <td>Other</td>
+                <td/>
                 <td>Other.</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1069,7 +1527,7 @@
         <name value="ModifiedAdministrativeGender"/>
         <title value="ModifiedAdministrativeGender"/>
         <status value="draft"/>
-        <date value="2026-07-23T06:55:30+00:00"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1078,13 +1536,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c3422954-0659-4d1c-87e3-ab94ff3ab7cc"/>
-          <timestamp value="2026-07-23T06:55:59+00:00"/>
+          <identifier value="urn:uuid:7b15f913-83b4-46b5-b70d-7fc4ac498ffc"/>
+          <timestamp value="2026-07-23T07:15:41+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="en"/>
+            <valueCode value="fr"/>
           </parameter>
           <parameter>
             <name value="count"/>
@@ -1105,17 +1563,170 @@
           <contains>
             <system value="http://hl7.org/fhir/administrative-gender"/>
             <code value="male"/>
-            <display value="Male"/>
           </contains>
           <contains>
             <system value="http://hl7.org/fhir/administrative-gender"/>
             <code value="female"/>
-            <display value="Female"/>
           </contains>
           <contains>
             <system value="http://hl7.org/fhir/administrative-gender"/>
             <code value="other"/>
-            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/ModifiedAdministrativeGender"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
+              <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.org/fhir/administrative-gender|4.0.1" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>Définition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/administrative-gender-male"> </a>
+                  <code>http://hl7.org/fhir/administrative-gender</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a>
+                </td>
+                <td/>
+                <td>Male.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/administrative-gender-female"> </a>
+                  <code>http://hl7.org/fhir/administrative-gender</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a>
+                </td>
+                <td/>
+                <td>Female.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/administrative-gender-other"> </a>
+                  <code>http://hl7.org/fhir/administrative-gender</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other">other</a>
+                </td>
+                <td/>
+                <td>Other.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;other&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/ModifiedAdministrativeGender"/>
+        <version value="0.1.0"/>
+        <name value="ModifiedAdministrativeGender"/>
+        <title value="ModifiedAdministrativeGender"/>
+        <status value="draft"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:7b15f913-83b4-46b5-b70d-7fc4ac498ffc"/>
+          <timestamp value="2026-07-23T07:15:41+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/administrative-gender|4.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="male"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="female"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="other"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1228,7 +1839,7 @@
         <name value="ModifiedAdministrativeGender"/>
         <title value="ModifiedAdministrativeGender"/>
         <status value="draft"/>
-        <date value="2026-07-23T06:55:30+00:00"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1237,8 +1848,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c3422954-0659-4d1c-87e3-ab94ff3ab7cc"/>
-          <timestamp value="2026-07-23T06:55:59+00:00"/>
+          <identifier value="urn:uuid:fabb395a-1428-4ca5-bbd8-41ad136b63d8"/>
+          <timestamp value="2026-07-23T07:15:42+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1288,26 +1899,26 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
               <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0 (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system|0.1.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
               </span>
             </p>
-            <p>This value set contains 4 concepts</p>
+            <p>Ce jeu de valeur (ValueSet) contient 4 concepts</p>
             <table class="codes" data-fhir="generated">
               <tr>
                 <td>
-                  <b>System</b>
+                  <b>Système</b>
                 </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>Display (en)</b>
+                  <b>Affichage (fr)</b>
                 </td>
                 <td>
-                  <b>Definition</b>
+                  <b>Définition</b>
                 </td>
                 <td>
                   <b>JSON</b>
@@ -1324,16 +1935,16 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA">CPA</a>
                 </td>
-                <td>Carte de Personnel Autorisé</td>
+                <td/>
                 <td>La carte d'un personnel autorisé (CDA/CPA)</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPA&quot;, &quot;display&quot;: &quot;Carte de Personnel Autorisé&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPA&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPA&quot;&gt;&lt;display value=&quot;Carte de Personnel Autorisé&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPA&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1345,16 +1956,16 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE">CPE</a>
                 </td>
-                <td>Carte de Personnel d'Etablissement</td>
+                <td/>
                 <td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPE&quot;, &quot;display&quot;: &quot;Carte de Personnel d'Etablissement&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPE&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPE&quot;&gt;&lt;display value=&quot;Carte de Personnel d'Etablissement&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPE&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1366,16 +1977,16 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF">CPF</a>
                 </td>
-                <td>Carte de Professionnel de Santé en Formation</td>
+                <td/>
                 <td>La Carte de Professionnel de Santé en Formation (CPF).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPF&quot;, &quot;display&quot;: &quot;Carte de Professionnel de Santé en Formation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPF&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPF&quot;&gt;&lt;display value=&quot;Carte de Professionnel de Santé en Formation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPF&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1387,16 +1998,16 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS">CPS</a>
                 </td>
-                <td>Carte de Professionnel de Santé</td>
+                <td/>
                 <td>La Carte de Professionnel de Santé (CPS).</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPS&quot;, &quot;display&quot;: &quot;Carte de Professionnel de Santé&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPS&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPS&quot;&gt;&lt;display value=&quot;Carte de Professionnel de Santé&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPS&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1408,7 +2019,7 @@
         <name value="TypeCarteVS"/>
         <title value="Type Carte Value Set"/>
         <status value="draft"/>
-        <date value="2026-07-23T06:55:30+00:00"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1417,13 +2028,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:89699e2c-dddf-4823-9bbd-ad0b429467ef"/>
-          <timestamp value="2026-07-23T06:56:00+00:00"/>
+          <identifier value="urn:uuid:1cb3d0fb-bd9d-4eb4-8029-853bf45b56ed"/>
+          <timestamp value="2026-07-23T07:15:42+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="en"/>
+            <valueCode value="fr"/>
           </parameter>
           <parameter>
             <name value="count"/>
@@ -1444,22 +2055,199 @@
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
             <code value="CPA"/>
-            <display value="Carte de Personnel Autorisé"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
             <code value="CPE"/>
-            <display value="Carte de Personnel d'Etablissement"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
             <code value="CPF"/>
-            <display value="Carte de Professionnel de Santé en Formation"/>
           </contains>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
             <code value="CPS"/>
-            <display value="Carte de Professionnel de Santé"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/TypeCarteVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
+              <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system|0.1.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>Définition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system-CPA"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPA">CPA</a>
+                </td>
+                <td/>
+                <td>La carte d'un personnel autorisé (CDA/CPA)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPA&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPA&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system-CPE"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPE">CPE</a>
+                </td>
+                <td/>
+                <td>La Carte de Personnel d'Etablissement de santé (CDE/CPE).</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPE&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPE&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system-CPF"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPF">CPF</a>
+                </td>
+                <td/>
+                <td>La Carte de Professionnel de Santé en Formation (CPF).</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPF&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPF&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system-CPS"> </a>
+                  <code>https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-type-carte-code-system.html#type-carte-code-system-CPS">CPS</a>
+                </td>
+                <td/>
+                <td>La Carte de Professionnel de Santé (CPS).</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;CPS&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;CPS&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/TypeCarteVS"/>
+        <version value="0.1.0"/>
+        <name value="TypeCarteVS"/>
+        <title value="Type Carte Value Set"/>
+        <status value="draft"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:1cb3d0fb-bd9d-4eb4-8029-853bf45b56ed"/>
+          <timestamp value="2026-07-23T07:15:42+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
+            <code value="CPA"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
+            <code value="CPE"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
+            <code value="CPF"/>
+          </contains>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system"/>
+            <code value="CPS"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1593,7 +2381,7 @@
         <name value="TypeCarteVS"/>
         <title value="Type Carte Value Set"/>
         <status value="draft"/>
-        <date value="2026-07-23T06:55:30+00:00"/>
+        <date value="2026-07-23T07:15:05+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1602,8 +2390,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:89699e2c-dddf-4823-9bbd-ad0b429467ef"/>
-          <timestamp value="2026-07-23T06:56:00+00:00"/>
+          <identifier value="urn:uuid:32870984-fa00-45a4-85e1-4134465205d1"/>
+          <timestamp value="2026-07-23T07:15:42+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>

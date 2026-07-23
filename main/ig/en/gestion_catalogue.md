@@ -2,6 +2,9 @@
 
 ## Gestion du catalogue
 
+ 
+There is no translation page available for the current page, so it has been rendered in the default language 
+
 ### Documentation
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat dui eu aliquet semper. Duis velit nisi, pretium sit amet pharetra sed, varius a leo. Nunc vehicula leo sit amet luctus maximus. Morbi a nibh id dui interdum lacinia sit amet at turpis. Phasellus sollicitudin risus hendrerit mauris bibendum aliquet. Nullam fermentum arcu ex, sit amet venenatis turpis elementum ornare. Donec congue venenatis magna.

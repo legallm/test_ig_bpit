@@ -6,7 +6,10 @@
     "name" : "EyeColorVS",
     "title" : "EyeColor Value Set",
     "description" : "Different eye colors.",
-    "systems" : ["http://snomed.info/sct"]
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-EyeColor.html" : "EyeColor"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/MeltingPotVS",
@@ -26,7 +29,10 @@
     "name" : "ModifiedAdministrativeGender",
     "title" : "ModifiedAdministrativeGender",
     "description" : "AdministrativeGender without unknown code",
-    "systems" : ["http://hl7.org/fhir/administrative-gender"]
+    "systems" : ["http://hl7.org/fhir/administrative-gender"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-patient.html" : "Patient français"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/TypeCarteVS",

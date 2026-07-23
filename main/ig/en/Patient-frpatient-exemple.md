@@ -2,6 +2,12 @@
 
 ## Example Patient: frpatient-exemple
 
+-------
+
+**English**
+
+-------
+
 Profile: [Patient français](StructureDefinition-fr-patient.md)
 
 JEANNE MARIE DARK Female, DoB: 1939-08-13 ( urn:oid:1.2.250.1.213.1.4.8#239088815400243)

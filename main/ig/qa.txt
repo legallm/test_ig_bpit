@@ -1,69 +1,60 @@
 ExampleIG : Validation Results
 =========================================
 
-err = 11, warn = 19, info = 10
+err = 2, warn = 19, info = 10
 IG Publisher Version: 2.2.10 Out of date - current version is 2.2.11
-Generated Thu Jul 23 06:56:10 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.test_ig_bpit#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/test_ig_bpit)
+Generated Thu Jul 23 07:15:57 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.test_ig_bpit#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/test_ig_bpit)
  Build Errors : 0 / 2 / 0
- /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 1 / 3 / 2
- /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 1 / 3 / 2
- /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.test_ig_bpit : 3 / 0 / 2
+ /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 3 / 2
+ /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 3 / 2
+ /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.test_ig_bpit : 2 / 0 / 2
  /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/Patient-frpatient-exemple : 0 / 1 / 1
- /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/StructureDefinition-EyeColor : 1 / 2 / 2
- /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/StructureDefinition-fr-patient : 1 / 0 / 5
- /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/ValueSet-EyeColorVS : 1 / 2 / 2
- /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/ValueSet-MeltingPotVS : 1 / 2 / 2
- /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/ValueSet-ModifiedAdministrativeGender : 1 / 2 / 1
- /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/ValueSet-TypeCarteVS : 1 / 2 / 1
+ /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/StructureDefinition-EyeColor : 0 / 2 / 2
+ /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/StructureDefinition-fr-patient : 0 / 0 / 5
+ /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/ValueSet-EyeColorVS : 0 / 2 / 2
+ /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/ValueSet-MeltingPotVS : 0 / 2 / 2
+ /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/ValueSet-ModifiedAdministrativeGender : 0 / 2 / 1
+ /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/ValueSet-TypeCarteVS : 0 / 2 / 1
 </table>
 == n/a ==
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml, cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: An HTML fragment from the set [globals-table.xhtml, globals-table.xhtml] is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CodeSystem-competence-code-system.json ==
-ERROR: CodeSystem/competence-code-system: CodeSystem.jurisdiction[0].coding[0].display: Wrong Display Name 'France (la)' for urn:iso:std:iso:3166#FR. Valid display is 'France' (en) (for the language(s) 'en')
 INFORMATION: CodeSystem/competence-code-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/competence-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/competence-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 WARNING: Resource: The resource CodeSystem/competence-code-system should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/CodeSystem-type-carte-code-system.json ==
-ERROR: CodeSystem/type-carte-code-system: CodeSystem.jurisdiction[0].coding[0].display: Wrong Display Name 'France (la)' for urn:iso:std:iso:3166#FR. Valid display is 'France' (en) (for the language(s) 'en')
 INFORMATION: CodeSystem/type-carte-code-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/type-carte-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 WARNING: CodeSystem/type-carte-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 WARNING: Resource: The resource CodeSystem/type-carte-code-system should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.test_ig_bpit.json ==
 ERROR: ImplementationGuide/ans.fhir.fr.test_ig_bpit: ImplementationGuide.id: Invalid Resource id: Invalid Characters ('ans.fhir.fr.test_ig_bpit')
-ERROR: ImplementationGuide/ans.fhir.fr.test_ig_bpit: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'France (la)' for urn:iso:std:iso:3166#FR. Valid display is 'France' (en) (for the language(s) 'en')
 ERROR: ImplementationGuide/ans.fhir.fr.test_ig_bpit: ImplementationGuide.packageId: id value 'ans.fhir.fr.test_ig_bpit' is not valid
 INFORMATION: Resource: The resource ImplementationGuide/ans.fhir.fr.test_ig_bpit could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/Patient-frpatient-exemple.json ==
 WARNING: Patient/frpatient-exemple: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8'
 == fsh-generated/resources/StructureDefinition-EyeColor.json ==
-ERROR: StructureDefinition/EyeColor: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'France (la)' for urn:iso:std:iso:3166#FR. Valid display is 'France' (en) (for the language(s) 'en')
 WARNING: StructureDefinition/EyeColor: StructureDefinition.context[0]: Review the extension type for EyeColor: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 INFORMATION: Resource: The resource StructureDefinition/EyeColor could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/test_ig_bpit/StructureDefinition/EyeColor'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-patient.json ==
-ERROR: StructureDefinition/fr-patient: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'France (la)' for urn:iso:std:iso:3166#FR. Valid display is 'France' (en) (for the language(s) 'en')
 INFORMATION: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
 INFORMATION: StructureDefinition/fr-patient: StructureDefinition.differential.element[3].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[10].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: Resource: The resource StructureDefinition/fr-patient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-EyeColorVS.json ==
-ERROR: ValueSet/EyeColorVS: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'France (la)' for urn:iso:std:iso:3166#FR. Valid display is 'France' (en) (for the language(s) 'en')
 INFORMATION: ValueSet/EyeColorVS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 WARNING: ValueSet/EyeColorVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/EyeColorVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-MeltingPotVS.json ==
-ERROR: ValueSet/MeltingPotVS: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'France (la)' for urn:iso:std:iso:3166#FR. Valid display is 'France' (en) (for the language(s) 'en')
 INFORMATION: ValueSet/MeltingPotVS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 WARNING: ValueSet/MeltingPotVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/MeltingPotVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-ModifiedAdministrativeGender.json ==
-ERROR: ValueSet/ModifiedAdministrativeGender: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'France (la)' for urn:iso:std:iso:3166#FR. Valid display is 'France' (en) (for the language(s) 'en')
 WARNING: ValueSet/ModifiedAdministrativeGender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/ModifiedAdministrativeGender should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-TypeCarteVS.json ==
-ERROR: ValueSet/TypeCarteVS: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'France (la)' for urn:iso:std:iso:3166#FR. Valid display is 'France' (en) (for the language(s) 'en')
 WARNING: ValueSet/TypeCarteVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: Resource: The resource ValueSet/TypeCarteVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)

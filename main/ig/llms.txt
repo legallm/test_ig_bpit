@@ -1,40 +1,40 @@
-# ans.fhir.fr.test_ig_bpit#0.1.0: ANS IG Example(en)
+# ans.fhir.fr.test_ig_bpit#0.1.0: ANS IG Example(fr)
 
 ## Pages
 
-* [Accueil](en/index.md)
-* [Artifacts Summary](en/artifacts.md)
-* [Contexte](en/contexte.md)
-* [Historique des versions](en/change-log.md)
-* [Gestion du catalogue](en/gestion_catalogue.md)
-* [Licences](en/licences.md)
+* [Accueil](fr/index.md)
+* [Historique des versions](fr/change-log.md)
+* [Contexte](fr/contexte.md)
+* [Gestion du catalogue](fr/gestion_catalogue.md)
+* [Licences](fr/licences.md)
+* [Résumé des artefacts](fr/artifacts.md)
 
 ## Resources
 
 ### CodeSystems
 
-* [Compétences CodeSystem](en/CodeSystem-competence-code-system.md)
-* [Type de carte](en/CodeSystem-type-carte-code-system.md)
+* [Compétences CodeSystem](fr/CodeSystem-competence-code-system.md)
+* [Type de carte](fr/CodeSystem-type-carte-code-system.md)
 
 ### ValueSets
 
-* [EyeColor Value Set](en/ValueSet-EyeColorVS.md)
-* [Melting Pot Value Set](en/ValueSet-MeltingPotVS.md)
-* [ModifiedAdministrativeGender](en/ValueSet-ModifiedAdministrativeGender.md)
-* [Type Carte Value Set](en/ValueSet-TypeCarteVS.md)
+* [EyeColor Value Set](fr/ValueSet-EyeColorVS.md)
+* [Melting Pot Value Set](fr/ValueSet-MeltingPotVS.md)
+* [ModifiedAdministrativeGender](fr/ValueSet-ModifiedAdministrativeGender.md)
+* [Type Carte Value Set](fr/ValueSet-TypeCarteVS.md)
 
 ### Resource Profiles
 
-* [Patient français](en/StructureDefinition-fr-patient.md)
+* [Patient français](fr/StructureDefinition-fr-patient.md)
 
 ### Extensions
 
-* [EyeColor](en/StructureDefinition-EyeColor.md)
+* [EyeColor](fr/StructureDefinition-EyeColor.md)
 
 ### ImplementationGuides
 
-* [ANS IG Example](en/ImplementationGuide-ans.fhir.fr.test_ig_bpit.md)
+* [ANS IG Example](fr/ImplementationGuide-ans.fhir.fr.test_ig_bpit.md)
 
 ### Examples
 
-* [frpatient-exemple (Patient)](en/Patient-frpatient-exemple.md)
+* [frpatient-exemple (Patient)](fr/Patient-frpatient-exemple.md)

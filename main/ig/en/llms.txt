@@ -3,11 +3,11 @@
 ## Pages
 
 * [Accueil](index.md)
-* [Artifacts Summary](artifacts.md)
-* [Contexte](contexte.md)
 * [Historique des versions](change-log.md)
+* [Contexte](contexte.md)
 * [Gestion du catalogue](gestion_catalogue.md)
 * [Licences](licences.md)
+* [Artifacts Summary](artifacts.md)
 
 ## Resources
 

@@ -2,6 +2,9 @@
 
 ## Accueil
 
+ 
+There is no translation page available for the current page, so it has been rendered in the default language 
+
  **Brief description of this Implementation Guide**
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate quis felis vel semper. In ac erat malesuada, efficitur est sit amet, hendrerit elit. Fusce mollis, dui eu sagittis vulputate, eros orci fringilla ex, in porttitor lorem nibh ut massa. Suspendisse gravida erat ante, sed faucibus libero maximus et. Aenean at est non libero aliquam porttitor. 
 

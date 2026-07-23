@@ -2,6 +2,9 @@
 
 ## Contexte
 
+ 
+There is no translation page available for the current page, so it has been rendered in the default language 
+
 ### Objectifs
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis enim eget aliquam iaculis. Integer elementum leo vitae maximus sollicitudin. Duis viverra tincidunt neque nec mattis. Morbi arcu orci, euismod et porta id, tristique nec nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sit amet enim vestibulum dolor placerat bibendum laoreet iaculis neque. Nulla venenatis convallis dictum. Quisque nec mauris eget neque vulputate tristique vel a felis. Maecenas imperdiet semper auctor. Mauris vel gravida nisl. Ut mollis consectetur ex faucibus rutrum.
