@@ -3,7 +3,7 @@ ExampleIG : Validation Results
 
 err = 2, warn = 19, info = 10
 IG Publisher Version: 2.2.10 Out of date - current version is 2.2.11
-Generated Thu Jul 23 07:15:57 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.test_ig_bpit#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/test_ig_bpit)
+Generated Thu Jul 23 09:43:14 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.test_ig_bpit#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/test_ig_bpit)
  Build Errors : 0 / 2 / 0
  /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 3 / 2
  /__w/test_ig_bpit/test_ig_bpit/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 3 / 2
