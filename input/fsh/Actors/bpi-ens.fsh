@@ -7,10 +7,10 @@ InstanceOf: ActorDefinition
 Title: "BPI ENS"
 Usage: #definition
 Description: "Entreprise du Numérique en Santé."
-* purpose = "Collective"
+* purpose = "Person"
 * name = "BPI_ENS"
 * title = "BPI ENS"
 * status = #active
 * experimental = false
-* type = #collective
+* type = #person
 * documentation = ""
