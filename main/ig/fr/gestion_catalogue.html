@@ -5,7 +5,7 @@
 <html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml" lang="fr" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Gestion du catalogue - ANS IG Example v0.1.0</title>
+    <title>Gestion du catalogue - Test IG BPI v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -48,8 +48,8 @@
 	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"4"}
-    h3,h4,h5,h6{--heading-prefix:"4"}</style>
+    <style type="text/css">h2{--heading-prefix:"5"}
+    h3,h4,h5,h6{--heading-prefix:"5"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -67,7 +67,7 @@
 
 
         <div id="ig-status" data-fhir="generated">
-          <p><span style="font-size:12pt;font-weight:bold">ANS IG Example</span>
+          <p><span style="font-size:12pt;font-weight:bold">Test IG BPI</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -107,6 +107,9 @@
     <a href="index.html">Accueil</a>
   </li>
   <li>
+    <a href="glossaire.html">Glossaire</a>
+  </li>
+  <li>
     <a href="contexte.html">Contexte</a>
   </li>
   <li class="dropdown">
@@ -120,16 +123,19 @@
       <li>
         <a href="gestion_catalogue.html">Gestion du catalogue</a>
       </li>
+      <li>
+        <a href="recherche.html">Recherche</a>
+      </li>
+      <li>
+        <a href="interoperabilite.html">Interopérabilité</a>
+      </li>
     </ul>
   </li>
   <li>
-    <a href="artifacts.html">Ressources de conformité</a>
+    <a href="change-log.html">Historique des versions</a>
   </li>
   <li>
     <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation des IG</a>
-  </li>
-  <li>
-    <a href="change-log.html">Historique des versions</a>
   </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
@@ -169,7 +175,7 @@
 
             <a href="#bottom">bas de page</a>
 
-          | <a href="change-log.html">suivant &gt;</a>
+          | <a href="recherche.html">suivant &gt;</a>
 
           </span>
 
@@ -191,7 +197,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">ANS IG Example - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/test_ig_bpit/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Test IG BPI - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/test_ig_bpit/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
   <h2>Gestion du catalogue</h2>
   
 
@@ -210,20 +216,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#documentation" id="markdown-toc-documentation">Documentation</a></li>
-  <li><a href="#traçabilité" id="markdown-toc-traçabilité">Traçabilité</a></li>
-  <li><a href="#mise-à-jour" id="markdown-toc-mise-à-jour">Mise à jour</a></li>
-  <li><a href="#architecture" id="markdown-toc-architecture">Architecture</a></li>
+  <li><a href="#contexte" id="markdown-toc-contexte">Contexte</a></li>
+  <li><a href="#recommandations" id="markdown-toc-recommandations">Recommandations</a></li>
 </ul>
 
 </div>
-<h3 id="documentation">Documentation</h3>
+<h3 id="contexte">Contexte</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat dui eu aliquet semper. Duis velit nisi, pretium sit amet pharetra sed, varius a leo. Nunc vehicula leo sit amet luctus maximus. Morbi a nibh id dui interdum lacinia sit amet at turpis. Phasellus sollicitudin risus hendrerit mauris bibendum aliquet. Nullam fermentum arcu ex, sit amet venenatis turpis elementum ornare. Donec congue venenatis magna.</p>
+
+<h3 id="recommandations">Recommandations</h3>
+<h4 id="documentation">Documentation</h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat dui eu aliquet semper. Duis velit nisi, pretium sit amet pharetra sed, varius a leo. Nunc vehicula leo sit amet luctus maximus. Morbi a nibh id dui interdum lacinia sit amet at turpis. Phasellus sollicitudin risus hendrerit mauris bibendum aliquet. Nullam fermentum arcu ex, sit amet venenatis turpis elementum ornare. Donec congue venenatis magna.</p>
 
 <table>
   <thead>
     <tr>
-      <th>#</th>
+      <th>ID</th>
       <th>Détails</th>
       <th>Rationnalisation</th>
       <th>Exemple</th>
@@ -231,13 +239,25 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
+      <td>CAT-01</td>
       <td>Lorem ipsum dolor sit amet</td>
       <td>Lorem ipsum</td>
       <td>Lorem ipsum</td>
     </tr>
     <tr>
-      <td>2</td>
+      <td>CAT-02</td>
+      <td>Lorem ipsum dolor sit amet</td>
+      <td> </td>
+      <td>Lorem ipsum</td>
+    </tr>
+    <tr>
+      <td>CAT-03</td>
+      <td>Lorem ipsum dolor sit amet</td>
+      <td> </td>
+      <td>Lorem ipsum</td>
+    </tr>
+    <tr>
+      <td>CAT-04</td>
       <td>Lorem ipsum dolor sit amet</td>
       <td> </td>
       <td>Lorem ipsum</td>
@@ -245,7 +265,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h3 id="traçabilité">Traçabilité</h3>
+<h4 id="traçabilité">Traçabilité</h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat dui eu aliquet semper. Duis velit nisi, pretium sit amet pharetra sed, varius a leo. Nunc vehicula leo sit amet luctus maximus. Morbi a nibh id dui interdum lacinia sit amet at turpis. Phasellus sollicitudin risus hendrerit mauris bibendum aliquet. Nullam fermentum arcu ex, sit amet venenatis turpis elementum ornare. Donec congue venenatis magna.</p>
 
 <table>
@@ -259,13 +279,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </thead>
   <tbody>
     <tr>
-      <td>3</td>
+      <td>CAT-05</td>
       <td>Lorem ipsum dolor sit amet</td>
       <td>Lorem ipsum</td>
       <td> </td>
     </tr>
     <tr>
-      <td>4</td>
+      <td>CAT-06</td>
       <td>Lorem ipsum dolor sit amet</td>
       <td>Lorem ipsum</td>
       <td> </td>
@@ -273,7 +293,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </tbody>
 </table>
 
-<h3 id="mise-à-jour">Mise à jour</h3>
+<h4 id="mise-à-jour">Mise à jour</h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat dui eu aliquet semper. Duis velit nisi, pretium sit amet pharetra sed, varius a leo. Nunc vehicula leo sit amet luctus maximus. Morbi a nibh id dui interdum lacinia sit amet at turpis. Phasellus sollicitudin risus hendrerit mauris bibendum aliquet. Nullam fermentum arcu ex, sit amet venenatis turpis elementum ornare. Donec congue venenatis magna.</p>
 
 <table>
@@ -287,39 +307,39 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </thead>
   <tbody>
     <tr>
-      <td>5</td>
+      <td>CAT-07</td>
       <td>Lorem ipsum dolor sit amet</td>
       <td>Lorem ipsum</td>
       <td> </td>
     </tr>
     <tr>
-      <td>6</td>
+      <td>CAT-08</td>
       <td>Lorem ipsum dolor sit amet</td>
       <td>Lorem ipsum</td>
       <td>Lorem ipsum</td>
     </tr>
     <tr>
-      <td>7</td>
+      <td>CAT-09</td>
       <td>Lorem ipsum dolor sit amet</td>
       <td> </td>
       <td>Lorem ipsum</td>
     </tr>
     <tr>
-      <td>8</td>
+      <td>CAT-10</td>
       <td>Lorem ipsum dolor sit amet</td>
       <td>Lorem ipsum</td>
       <td> </td>
     </tr>
     <tr>
-      <td>9</td>
+      <td>CAT-11</td>
       <td>Lorem ipsum dolor sit amet</td>
-      <td> </td>
+      <td>Lorem ipsum</td>
       <td> </td>
     </tr>
   </tbody>
 </table>
 
-<h3 id="architecture">Architecture</h3>
+<h4 id="architecture">Architecture</h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat dui eu aliquet semper. Duis velit nisi, pretium sit amet pharetra sed, varius a leo. Nunc vehicula leo sit amet luctus maximus. Morbi a nibh id dui interdum lacinia sit amet at turpis. Phasellus sollicitudin risus hendrerit mauris bibendum aliquet. Nullam fermentum arcu ex, sit amet venenatis turpis elementum ornare. Donec congue venenatis magna.</p>
 
 <table>
@@ -333,13 +353,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </thead>
   <tbody>
     <tr>
-      <td>10</td>
+      <td>CAT-12</td>
       <td>Lorem ipsum dolor sit amet</td>
       <td>Lorem ipsum</td>
       <td>Lorem ipsum</td>
     </tr>
     <tr>
-      <td>11</td>
+      <td>CAT-13</td>
+      <td>Lorem ipsum dolor sit amet</td>
+      <td> </td>
+      <td>Lorem ipsum</td>
+    </tr>
+    <tr>
+      <td>CAT-14</td>
       <td>Lorem ipsum dolor sit amet</td>
       <td> </td>
       <td>Lorem ipsum</td>
@@ -379,7 +405,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
               </td>
               <td style="text-align:var(--ig-right);">&#xA0;
 
-                <a href="change-log.html">suivant ></a>
+                <a href="recherche.html">suivant ></a>
 
               </td>
             </tr>
@@ -395,8 +421,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Le package ans.fhir.fr.test_ig_bpit#0.1.0 est basé sur <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Date de génération : 
-  <span title="2026-07-23 09:42:00 +0000">
-    2026-07-23
+  <span title="2026-07-30 15:40:00 +0000">
+    2026-07-30
   </span>
 
           <br/>

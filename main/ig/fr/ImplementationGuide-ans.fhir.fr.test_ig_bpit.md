@@ -1,4 +1,4 @@
-# Resource ANS IG Example
+# Resource Test IG BPI
 
 
 
@@ -11,10 +11,10 @@
   "language" : "fr",
   "url" : "https://interop.esante.gouv.fr/ig/test_ig_bpit/ImplementationGuide/ans.fhir.fr.test_ig_bpit",
   "version" : "0.1.0",
-  "name" : "ExampleIG",
-  "title" : "ANS IG Example",
+  "name" : "ExampleIgBpi",
+  "title" : "Test IG BPI",
   "status" : "draft",
-  "date" : "2026-07-23T09:42:30+00:00",
+  "date" : "2026-07-30T15:40:28+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -42,7 +42,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.2.0"
+    "version" : "7.3.0"
   },
   {
     "id" : "hl7ext",
@@ -678,109 +678,81 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
+        "valueString" : "ActorDefinition"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ActorDefinition-BPI-ENS.html"
       }],
       "reference" : {
-        "reference" : "CodeSystem/competence-code-system"
+        "reference" : "ActorDefinition/BPI-ENS"
       },
-      "name" : "Compétences CodeSystem",
-      "description" : "Compétences des professionnels de santé.",
+      "name" : "BPI ENS",
+      "description" : "Entreprise du Numérique en Santé.",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
+        "valueString" : "ActorDefinition"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ActorDefinition-BPI-Instance-Logicielle.html"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/EyeColor"
+        "reference" : "ActorDefinition/BPI-Instance-Logicielle"
       },
-      "name" : "EyeColor",
-      "description" : "Eye color extension",
+      "name" : "BPI Instance Logicielle",
+      "description" : "Installation en production d'une version d'un logiciel sur un même serveur physique ou logique.",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
+        "valueString" : "ActorDefinition"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ActorDefinition-BPI-Serveur-Multi-Terminologies.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/EyeColorVS"
+        "reference" : "ActorDefinition/BPI-Serveur-Multi-Terminologies"
       },
-      "name" : "EyeColor Value Set",
-      "description" : "Different eye colors.",
+      "name" : "BPI Serveur Multi-Terminologies",
+      "description" : "Portail de publication de ressources sémantiques de l'ANS via IHM, API REST spécifique et API FHIR.",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
+        "valueString" : "ActorDefinition"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ActorDefinition-BPI-Systeme-Information.html"
       }],
       "reference" : {
-        "reference" : "Patient/frpatient-exemple"
+        "reference" : "ActorDefinition/BPI-Systeme-Information"
       },
-      "name" : "frpatient-exemple",
-      "description" : "Exemple d'un patient français",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/test_ig_bpit/StructureDefinition/fr-patient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/MeltingPotVS"
-      },
-      "name" : "Melting Pot Value Set",
-      "description" : "Melting Pot Value Set.",
+      "name" : "BPI Système d'Information",
+      "description" : "Application permettant la gestion de données de santé ou sociales de patients ou usagers.",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
+        "valueString" : "ActorDefinition"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ActorDefinition-BPI-Utilisateur.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/ModifiedAdministrativeGender"
+        "reference" : "ActorDefinition/BPI-Utilisateur"
       },
-      "name" : "ModifiedAdministrativeGender",
-      "description" : "AdministrativeGender without unknown code",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/fr-patient"
-      },
-      "name" : "Patient français",
-      "description" : "Description du patient français",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/TypeCarteVS"
-      },
-      "name" : "Type Carte Value Set",
-      "description" : "Type Carte Value Set.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/type-carte-code-system"
-      },
-      "name" : "Type de carte",
-      "description" : "Type de carte professionnelle et personnelle.",
+      "name" : "BPI Utilisateur",
+      "description" : "Il peut s'agit d'un professionnel du secteur santé, médico-social ou social. Il peut également s'agir du patient ou de l'usager lui-même.",
       "exampleBoolean" : false
     }],
     "page" : {
@@ -798,6 +770,15 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Accueil",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "glossaire.html"
+        }],
+        "nameUrl" : "glossaire.html",
+        "title" : "Glossaire",
         "generation" : "markdown"
       },
       {
@@ -825,6 +806,24 @@
         }],
         "nameUrl" : "gestion_catalogue.html",
         "title" : "Gestion du catalogue",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "recherche.html"
+        }],
+        "nameUrl" : "recherche.html",
+        "title" : "Recherche",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "interoperabilite.html"
+        }],
+        "nameUrl" : "interoperabilite.html",
+        "title" : "Interopérabilité",
         "generation" : "markdown"
       },
       {

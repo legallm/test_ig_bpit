@@ -11,14 +11,14 @@
   fhir:Resource.language [ fhir:value "fr"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.test_ig_bpit</b></p><a name=\"ans.fhir.fr.test_ig_bpit\"> </a><a name=\"hcans.fhir.fr.test_ig_bpit\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr</p></div><h2>ExampleIG</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/test_ig_bpit/ImplementationGuide/ans.fhir.fr.test_ig_bpit</pre><div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta sem diam, non laoreet sem.</p>\n</div></div>"
+     fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.test_ig_bpit</b></p><a name=\"ans.fhir.fr.test_ig_bpit\"> </a><a name=\"hcans.fhir.fr.test_ig_bpit\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr</p></div><h2>ExampleIgBpi</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/test_ig_bpit/ImplementationGuide/ans.fhir.fr.test_ig_bpit</pre><div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta sem diam, non laoreet sem.</p>\n</div></div>"
   ] ;
   fhir:ImplementationGuide.url [ fhir:value "https://interop.esante.gouv.fr/ig/test_ig_bpit/ImplementationGuide/ans.fhir.fr.test_ig_bpit"] ;
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"] ;
-  fhir:ImplementationGuide.name [ fhir:value "ExampleIG"] ;
-  fhir:ImplementationGuide.title [ fhir:value "ANS IG Example"] ;
+  fhir:ImplementationGuide.name [ fhir:value "ExampleIgBpi"] ;
+  fhir:ImplementationGuide.title [ fhir:value "Test IG BPI"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-07-23T09:42:30+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-07-30T15:40:28+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;
@@ -58,7 +58,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ] ;
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "7.2.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "7.3.0" ]
   ], [
      fhir:index -1 ;
      fhir:Element.id [ fhir:value "hl7ext" ] ;
@@ -757,129 +757,70 @@
        fhir:Element.extension [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+         fhir:Extension.valueString [ fhir:value "ActorDefinition" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/competence-code-system> ;
-         fhir:Reference.reference [ fhir:value "CodeSystem/competence-code-system" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/ActorDefinition/BPI-ENS> ;
+         fhir:Reference.reference [ fhir:value "ActorDefinition/BPI-ENS" ]
        ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Compétences CodeSystem" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Compétences des professionnels de santé." ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BPI ENS" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Entreprise du Numérique en Santé." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index -1 ;
        fhir:Element.extension [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+         fhir:Extension.valueString [ fhir:value "ActorDefinition" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/StructureDefinition/EyeColor> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/EyeColor" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/ActorDefinition/BPI-Instance-Logicielle> ;
+         fhir:Reference.reference [ fhir:value "ActorDefinition/BPI-Instance-Logicielle" ]
        ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "EyeColor" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Eye color extension" ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BPI Instance Logicielle" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Installation en production d'une version d'un logiciel sur un même serveur physique ou logique." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index -1 ;
        fhir:Element.extension [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+         fhir:Extension.valueString [ fhir:value "ActorDefinition" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/EyeColorVS> ;
-         fhir:Reference.reference [ fhir:value "ValueSet/EyeColorVS" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/ActorDefinition/BPI-Serveur-Multi-Terminologies> ;
+         fhir:Reference.reference [ fhir:value "ActorDefinition/BPI-Serveur-Multi-Terminologies" ]
        ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "EyeColor Value Set" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Different eye colors." ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BPI Serveur Multi-Terminologies" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Portail de publication de ressources sémantiques de l'ANS via IHM, API REST spécifique et API FHIR." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index -1 ;
        fhir:Element.extension [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "Patient" ]
+         fhir:Extension.valueString [ fhir:value "ActorDefinition" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/Patient/frpatient-exemple> ;
-         fhir:Reference.reference [ fhir:value "Patient/frpatient-exemple" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/ActorDefinition/BPI-Systeme-Information> ;
+         fhir:Reference.reference [ fhir:value "ActorDefinition/BPI-Systeme-Information" ]
        ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "frpatient-exemple" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Exemple d'un patient français" ] ;
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://interop.esante.gouv.fr/ig/test_ig_bpit/StructureDefinition/fr-patient" ;
-         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/StructureDefinition/fr-patient>
-       ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/MeltingPotVS> ;
-         fhir:Reference.reference [ fhir:value "ValueSet/MeltingPotVS" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Melting Pot Value Set" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Melting Pot Value Set." ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BPI Système d'Information" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Application permettant la gestion de données de santé ou sociales de patients ou usagers." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index -1 ;
        fhir:Element.extension [
          fhir:index -1 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+         fhir:Extension.valueString [ fhir:value "ActorDefinition" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/ModifiedAdministrativeGender> ;
-         fhir:Reference.reference [ fhir:value "ValueSet/ModifiedAdministrativeGender" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/ActorDefinition/BPI-Utilisateur> ;
+         fhir:Reference.reference [ fhir:value "ActorDefinition/BPI-Utilisateur" ]
        ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ModifiedAdministrativeGender" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "AdministrativeGender without unknown code" ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/StructureDefinition/fr-patient> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-patient" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient français" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Description du patient français" ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/ValueSet/TypeCarteVS> ;
-         fhir:Reference.reference [ fhir:value "ValueSet/TypeCarteVS" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Type Carte Value Set" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type Carte Value Set." ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index -1 ;
-       fhir:Element.extension [
-         fhir:index -1 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/test_ig_bpit/CodeSystem/type-carte-code-system> ;
-         fhir:Reference.reference [ fhir:value "CodeSystem/type-carte-code-system" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Type de carte" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type de carte professionnelle et personnelle." ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BPI Utilisateur" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Il peut s'agit d'un professionnel du secteur santé, médico-social ou social. Il peut également s'agir du patient ou de l'usager lui-même." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ] ;
      fhir:ImplementationGuide.definition.page [
@@ -900,6 +841,16 @@
          ] ;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ] ;
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Accueil" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "glossaire.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "glossaire.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Glossaire" ] ;
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index -1 ;
@@ -930,6 +881,26 @@
          ] ;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "gestion_catalogue.html" ] ;
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Gestion du catalogue" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "recherche.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "recherche.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Recherche" ] ;
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ] ;
+           fhir:Extension.valueUrl [ fhir:value "interoperabilite.html" ]
+         ] ;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "interoperabilite.html" ] ;
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Interopérabilité" ] ;
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index -1 ;

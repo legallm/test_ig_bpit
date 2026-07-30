@@ -4,16 +4,16 @@
   <id value="ans.fhir.fr.test_ig_bpit"/>
   <language value="fr"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : ImplementationGuide ans.fhir.fr.test_ig_bpit</b></p><a name="ans.fhir.fr.test_ig_bpit"> </a><a name="hcans.fhir.fr.test_ig_bpit"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : fr</p></div><h2>ExampleIG</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/test_ig_bpit/ImplementationGuide/ans.fhir.fr.test_ig_bpit</pre><div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta sem diam, non laoreet sem.</p>
-</div></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ans.fhir.fr.test_ig_bpit</b></p><a name="en-ans.fhir.fr.test_ig_bpit"> </a><a name="en-hcans.fhir.fr.test_ig_bpit"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: fr</p></div><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/test_ig_bpit/ImplementationGuide/ans.fhir.fr.test_ig_bpit</pre><div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta sem diam, non laoreet sem.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : ImplementationGuide ans.fhir.fr.test_ig_bpit</b></p><a name="ans.fhir.fr.test_ig_bpit"> </a><a name="hcans.fhir.fr.test_ig_bpit"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : fr</p></div><h2>ExampleIgBpi</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/test_ig_bpit/ImplementationGuide/ans.fhir.fr.test_ig_bpit</pre><div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta sem diam, non laoreet sem.</p>
+</div></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ans.fhir.fr.test_ig_bpit</b></p><a name="en-ans.fhir.fr.test_ig_bpit"> </a><a name="en-hcans.fhir.fr.test_ig_bpit"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: fr</p></div><h2>ExampleIgBpi</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/test_ig_bpit/ImplementationGuide/ans.fhir.fr.test_ig_bpit</pre><div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta sem diam, non laoreet sem.</p>
 </div></div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/test_ig_bpit/ImplementationGuide/ans.fhir.fr.test_ig_bpit"/>
   <version value="0.1.0"/>
-  <name value="ExampleIG"/>
-  <title value="ANS IG Example"/>
+  <name value="ExampleIgBpi"/>
+  <title value="Test IG BPI"/>
   <status value="draft"/>
-  <date value="2026-07-23T09:42:30+00:00"/>
+  <date value="2026-07-30T15:40:28+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -39,7 +39,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.2.0"/>
+    <version value="7.3.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -503,101 +503,57 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
+        <valueString value="ActorDefinition"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/competence-code-system"/>
+        <reference value="ActorDefinition/BPI-ENS"/>
       </reference>
-      <name value="Compétences CodeSystem"/>
-      <description value="Compétences des professionnels de santé."/>
+      <name value="BPI ENS"/>
+      <description value="Entreprise du Numérique en Santé."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
+        <valueString value="ActorDefinition"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/EyeColor"/>
+        <reference value="ActorDefinition/BPI-Instance-Logicielle"/>
       </reference>
-      <name value="EyeColor"/>
-      <description value="Eye color extension"/>
+      <name value="BPI Instance Logicielle"/>
+      <description value="Installation en production d'une version d'un logiciel sur un même serveur physique ou logique."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="ActorDefinition"/>
       </extension>
       <reference>
-        <reference value="ValueSet/EyeColorVS"/>
+        <reference value="ActorDefinition/BPI-Serveur-Multi-Terminologies"/>
       </reference>
-      <name value="EyeColor Value Set"/>
-      <description value="Different eye colors."/>
+      <name value="BPI Serveur Multi-Terminologies"/>
+      <description value="Portail de publication de ressources sémantiques de l'ANS via IHM, API REST spécifique et API FHIR."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
+        <valueString value="ActorDefinition"/>
       </extension>
       <reference>
-        <reference value="Patient/frpatient-exemple"/>
+        <reference value="ActorDefinition/BPI-Systeme-Information"/>
       </reference>
-      <name value="frpatient-exemple"/>
-      <description value="Exemple d'un patient français"/>
-      <exampleCanonical value="https://interop.esante.gouv.fr/ig/test_ig_bpit/StructureDefinition/fr-patient"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/MeltingPotVS"/>
-      </reference>
-      <name value="Melting Pot Value Set"/>
-      <description value="Melting Pot Value Set."/>
+      <name value="BPI Système d'Information"/>
+      <description value="Application permettant la gestion de données de santé ou sociales de patients ou usagers."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
+        <valueString value="ActorDefinition"/>
       </extension>
       <reference>
-        <reference value="ValueSet/ModifiedAdministrativeGender"/>
+        <reference value="ActorDefinition/BPI-Utilisateur"/>
       </reference>
-      <name value="ModifiedAdministrativeGender"/>
-      <description value="AdministrativeGender without unknown code"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/fr-patient"/>
-      </reference>
-      <name value="Patient français"/>
-      <description value="Description du patient français"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/TypeCarteVS"/>
-      </reference>
-      <name value="Type Carte Value Set"/>
-      <description value="Type Carte Value Set."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/type-carte-code-system"/>
-      </reference>
-      <name value="Type de carte"/>
-      <description value="Type de carte professionnelle et personnelle."/>
+      <name value="BPI Utilisateur"/>
+      <description value="Il peut s'agit d'un professionnel du secteur santé, médico-social ou social. Il peut également s'agir du patient ou de l'usager lui-même."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>
@@ -613,6 +569,14 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Accueil"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="glossaire.html"/>
+        </extension>
+        <nameUrl value="glossaire.html"/>
+        <title value="Glossaire"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -637,6 +601,22 @@
         </extension>
         <nameUrl value="gestion_catalogue.html"/>
         <title value="Gestion du catalogue"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="recherche.html"/>
+        </extension>
+        <nameUrl value="recherche.html"/>
+        <title value="Recherche"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="interoperabilite.html"/>
+        </extension>
+        <nameUrl value="interoperabilite.html"/>
+        <title value="Interopérabilité"/>
         <generation value="markdown"/>
       </page>
       <page>

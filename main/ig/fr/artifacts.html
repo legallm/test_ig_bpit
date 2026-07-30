@@ -5,7 +5,7 @@
 <html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml" lang="fr" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Résumé des artefacts - ANS IG Example v0.1.0</title>
+    <title>Résumé des artefacts - Test IG BPI v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -48,8 +48,8 @@
 	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"6"}
-    h3,h4,h5,h6{--heading-prefix:"6.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"9"}
+    h3,h4,h5,h6{--heading-prefix:"9.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -67,7 +67,7 @@
 
 
         <div id="ig-status" data-fhir="generated">
-          <p><span style="font-size:12pt;font-weight:bold">ANS IG Example</span>
+          <p><span style="font-size:12pt;font-weight:bold">Test IG BPI</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -107,6 +107,9 @@
     <a href="index.html">Accueil</a>
   </li>
   <li>
+    <a href="glossaire.html">Glossaire</a>
+  </li>
+  <li>
     <a href="contexte.html">Contexte</a>
   </li>
   <li class="dropdown">
@@ -120,16 +123,19 @@
       <li>
         <a href="gestion_catalogue.html">Gestion du catalogue</a>
       </li>
+      <li>
+        <a href="recherche.html">Recherche</a>
+      </li>
+      <li>
+        <a href="interoperabilite.html">Interopérabilité</a>
+      </li>
     </ul>
   </li>
   <li>
-    <a href="artifacts.html">Ressources de conformité</a>
+    <a href="change-log.html">Historique des versions</a>
   </li>
   <li>
     <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation des IG</a>
-  </li>
-  <li>
-    <a href="change-log.html">Historique des versions</a>
   </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
@@ -169,7 +175,7 @@
 
             <a href="#bottom">bas de page</a>
 
-          | <a href="StructureDefinition-fr-patient.html">suivant &gt;</a>
+          | <a href="ActorDefinition-BPI-ENS.html">suivant &gt;</a>
 
           </span>
 
@@ -191,7 +197,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">ANS IG Example - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/test_ig_bpit/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Test IG BPI - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/test_ig_bpit/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
   <h2>Résumé des artefacts</h2>
   
   
@@ -205,19 +211,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contenu:</p>
    <ul>
       <li>
-         <a href="#1">Structures: Profils de ressources</a>
-      </li>
-      <li>
-         <a href="#2">Structures: Définitions de l'extension</a>
-      </li>
-      <li>
-         <a href="#3">Terminologie: Jeux de valeurs (ValueSets)</a>
-      </li>
-      <li>
-         <a href="#4">Terminologie: Systèmes de codes (CodeSystems)</a>
-      </li>
-      <li>
-         <a href="#5">Exemple: Exemples d'instances</a>
+         <a href="#1">Exigences: Définitions des acteurs</a>
       </li>
    </ul>
 </div>
@@ -227,145 +221,68 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      data-fhir="generated">
    <p>Cette page fournit une liste des artefacts FHIR définis dans le cadre de ce guide de mise en œuvre.</p>
    <a name="1"> </a>
-   <h3>Structures: Profils de ressources </h3>
-    <p>Ils définissent les contraintes sur les ressources FHIR pour les systèmes conformes à ce guide d'implémentation.</p>
+   <h3>Exigences: Définitions des acteurs </h3>
+    <p>Les artefacts suivants définissent les types de personnes et/ou de systèmes qui interagiront dans le cadre des cas d'utilisation couverts par le présent guide d'implémentation.</p>
 <table class="grid">
       <col style="width:20%"/>
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-fr-patient.html"
-                  title="StructureDefinition/fr-patient">
-                  <span title="StructureDefinition/fr-patient">Patient français
+               <a href="ActorDefinition-BPI-ENS.html" title="ActorDefinition/BPI-ENS">
+                  <span title="ActorDefinition/BPI-ENS">BPI ENS
 </span>
                </a>
             </td>
             <td>
-<p>Description du patient français</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="2"> </a>
-   <h3>Structures: Définitions de l'extension </h3>
-    <p>Ils définissent des contraintes sur les types de données FHIR pour les systèmes conformes à ce guide d'implémentation.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-EyeColor.html"
-                  title="StructureDefinition/EyeColor">
-                  <span title="StructureDefinition/EyeColor">EyeColor
-</span>
-               </a>
-            </td>
-            <td>
-<p>Eye color extension</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="3"> </a>
-   <h3>Terminologie: Jeux de valeurs (ValueSets) </h3>
-    <p>Ils définissent des ensembles de codes utilisés par les systèmes conformes au présent guide d'implémentation.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-EyeColorVS.html" title="ValueSet/EyeColorVS">
-                  <span title="ValueSet/EyeColorVS">EyeColor Value Set
-</span>
-               </a>
-            </td>
-            <td>
-<p>Different eye colors.</p>
+<p>Entreprise du Numérique en Santé.</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ValueSet-MeltingPotVS.html" title="ValueSet/MeltingPotVS">
-                  <span title="ValueSet/MeltingPotVS">Melting Pot Value Set
+               <a href="ActorDefinition-BPI-Instance-Logicielle.html"
+                  title="ActorDefinition/BPI-Instance-Logicielle">
+                  <span title="ActorDefinition/BPI-Instance-Logicielle">BPI Instance Logicielle
 </span>
                </a>
             </td>
             <td>
-<p>Melting Pot Value Set.</p>
+<p>Installation en production d'une version d'un logiciel sur un même serveur physique ou logique.</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ValueSet-ModifiedAdministrativeGender.html"
-                  title="ValueSet/ModifiedAdministrativeGender">
-                  <span title="ValueSet/ModifiedAdministrativeGender">ModifiedAdministrativeGender
+               <a href="ActorDefinition-BPI-Serveur-Multi-Terminologies.html"
+                  title="ActorDefinition/BPI-Serveur-Multi-Terminologies">
+                  <span title="ActorDefinition/BPI-Serveur-Multi-Terminologies">BPI Serveur Multi-Terminologies
 </span>
                </a>
             </td>
             <td>
-<p>AdministrativeGender without unknown code</p>
+<p>Portail de publication de ressources sémantiques de l'ANS via IHM, API REST spécifique et API FHIR.</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ValueSet-TypeCarteVS.html" title="ValueSet/TypeCarteVS">
-                  <span title="ValueSet/TypeCarteVS">Type Carte Value Set
+               <a href="ActorDefinition-BPI-Systeme-Information.html"
+                  title="ActorDefinition/BPI-Systeme-Information">
+                  <span title="ActorDefinition/BPI-Systeme-Information">BPI Système d'Information
 </span>
                </a>
             </td>
             <td>
-<p>Type Carte Value Set.</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="4"> </a>
-   <h3>Terminologie: Systèmes de codes (CodeSystems) </h3>
-    <p>Ils définissent les nouveaux systèmes de codes utilisés par les systèmes conformes au présent guide d'implémentation.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="CodeSystem-competence-code-system.html"
-                  title="CodeSystem/competence-code-system">
-                  <span title="CodeSystem/competence-code-system">Compétences CodeSystem
-</span>
-               </a>
-            </td>
-            <td>
-<p>Compétences des professionnels de santé.</p>
+<p>Application permettant la gestion de données de santé ou sociales de patients ou usagers.</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="CodeSystem-type-carte-code-system.html"
-                  title="CodeSystem/type-carte-code-system">
-                  <span title="CodeSystem/type-carte-code-system">Type de carte
+               <a href="ActorDefinition-BPI-Utilisateur.html"
+                  title="ActorDefinition/BPI-Utilisateur">
+                  <span title="ActorDefinition/BPI-Utilisateur">BPI Utilisateur
 </span>
                </a>
             </td>
             <td>
-<p>Type de carte professionnelle et personnelle.</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="5"> </a>
-   <h3>Exemple: Exemples d'instances </h3>
-    <p>Il s'agit d'exemples d'instances qui montrent à quoi peuvent ressembler les données produites et consommées par des systèmes conformes au présent guide d'implémentation.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Patient-frpatient-exemple.html" title="Patient/frpatient-exemple">
-                  <span title="Patient/frpatient-exemple">frpatient-exemple
-</span>
-               </a>
-            </td>
-            <td>
-<p>Exemple d'un patient français</p>
+<p>Il peut s'agit d'un professionnel du secteur santé, médico-social ou social. Il peut également s'agir du patient ou de l'usager lui-même.</p>
 </td>
          </tr>
       </tbody>
@@ -402,7 +319,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
               </td>
               <td style="text-align:var(--ig-right);">&#xA0;
 
-                <a href="StructureDefinition-fr-patient.html">suivant ></a>
+                <a href="ActorDefinition-BPI-ENS.html">suivant ></a>
 
               </td>
             </tr>
@@ -418,8 +335,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
           Le package ans.fhir.fr.test_ig_bpit#0.1.0 est basé sur <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Date de génération : 
-  <span title="2026-07-23 09:42:00 +0000">
-    2026-07-23
+  <span title="2026-07-30 15:40:00 +0000">
+    2026-07-30
   </span>
 
           <br/>

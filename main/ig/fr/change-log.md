@@ -1,4 +1,4 @@
-# Historique des versions - ANS IG Example v0.1.0
+# Historique des versions - Test IG BPI v0.1.0
 
 ## Historique des versions
 

@@ -1,40 +1,62 @@
-# ans.fhir.fr.test_ig_bpit#0.1.0: ANS IG Example(fr)
+# ans.fhir.fr.test_ig_bpit#0.1.0: Test IG BPI(fr)
 
 ## Pages
 
 * [Accueil](fr/index.md)
-* [Historique des versions](fr/change-log.md)
+* [](fr/ActorDefinition-BPI-ENS.change.history.md)
+* [BPI Utilisateur](fr/ActorDefinition-BPI-Utilisateur-testing.md)
+* [BPI Système d'Information - TTL Representation](fr/ActorDefinition-BPI-Systeme-Information.ttl.md)
+* [Glossaire](fr/glossaire.md)
+* [BPI Système d'Information](fr/ActorDefinition-BPI-Systeme-Information-testing.md)
+* [BPI Serveur Multi-Terminologies](fr/ActorDefinition-BPI-Serveur-Multi-Terminologies-testing.md)
+* [BPI Serveur Multi-Terminologies](fr/ActorDefinition-BPI-Serveur-Multi-Terminologies.md)
+* [](fr/ActorDefinition-BPI-Instance-Logicielle.change.history.md)
+* [](fr/ActorDefinition-BPI-Systeme-Information.change.history.md)
+* [Interopérabilité](fr/interoperabilite.md)
+* [BPI ENS - TTL Representation](fr/ActorDefinition-BPI-ENS.ttl.md)
+* [BPI Utilisateur - JSON Representation](fr/ActorDefinition-BPI-Utilisateur.json.md)
+* [BPI ENS](fr/ActorDefinition-BPI-ENS.ai.md)
+* [BPI Utilisateur](fr/ActorDefinition-BPI-Utilisateur.ai.md)
+* [BPI Système d'Information](fr/ActorDefinition-BPI-Systeme-Information.ai.md)
+* [BPI Utilisateur](fr/ActorDefinition-BPI-Utilisateur.md)
+* [BPI Instance Logicielle - JSON Representation](fr/ActorDefinition-BPI-Instance-Logicielle.json.md)
+* [BPI ENS](fr/ActorDefinition-BPI-ENS-testing.md)
+* [BPI ENS](fr/ActorDefinition-BPI-ENS.md)
+* [BPI Système d'Information - XML Representation](fr/ActorDefinition-BPI-Systeme-Information.xml.md)
+* [Résumé des artefacts](fr/artifacts.md)
+* [BPI Instance Logicielle](fr/ActorDefinition-BPI-Instance-Logicielle.ai.md)
+* [BPI Instance Logicielle - XML Representation](fr/ActorDefinition-BPI-Instance-Logicielle.xml.md)
+* [BPI Système d'Information](fr/ActorDefinition-BPI-Systeme-Information.md)
+* [BPI Serveur Multi-Terminologies](fr/ActorDefinition-BPI-Serveur-Multi-Terminologies.ai.md)
+* [BPI Serveur Multi-Terminologies - XML Representation](fr/ActorDefinition-BPI-Serveur-Multi-Terminologies.xml.md)
+* [BPI Utilisateur - XML Representation](fr/ActorDefinition-BPI-Utilisateur.xml.md)
+* [Recherche](fr/recherche.md)
+* [](fr/ActorDefinition-BPI-Serveur-Multi-Terminologies.change.history.md)
 * [Contexte](fr/contexte.md)
+* [Historique des versions](fr/change-log.md)
+* [BPI Système d'Information - JSON Representation](fr/ActorDefinition-BPI-Systeme-Information.json.md)
+* [BPI Instance Logicielle](fr/ActorDefinition-BPI-Instance-Logicielle-testing.md)
+* [BPI Instance Logicielle](fr/ActorDefinition-BPI-Instance-Logicielle.md)
+* [BPI Serveur Multi-Terminologies - TTL Representation](fr/ActorDefinition-BPI-Serveur-Multi-Terminologies.ttl.md)
+* [BPI Instance Logicielle - TTL Representation](fr/ActorDefinition-BPI-Instance-Logicielle.ttl.md)
+* [BPI ENS - XML Representation](fr/ActorDefinition-BPI-ENS.xml.md)
+* [BPI ENS - JSON Representation](fr/ActorDefinition-BPI-ENS.json.md)
 * [Gestion du catalogue](fr/gestion_catalogue.md)
 * [Licences](fr/licences.md)
-* [Résumé des artefacts](fr/artifacts.md)
+* [BPI Utilisateur - TTL Representation](fr/ActorDefinition-BPI-Utilisateur.ttl.md)
+* [BPI Serveur Multi-Terminologies - JSON Representation](fr/ActorDefinition-BPI-Serveur-Multi-Terminologies.json.md)
+* [](fr/ActorDefinition-BPI-Utilisateur.change.history.md)
 
 ## Resources
 
-### CodeSystems
+### Basics
 
-* [Compétences CodeSystem](fr/CodeSystem-competence-code-system.md)
-* [Type de carte](fr/CodeSystem-type-carte-code-system.md)
-
-### ValueSets
-
-* [EyeColor Value Set](fr/ValueSet-EyeColorVS.md)
-* [Melting Pot Value Set](fr/ValueSet-MeltingPotVS.md)
-* [ModifiedAdministrativeGender](fr/ValueSet-ModifiedAdministrativeGender.md)
-* [Type Carte Value Set](fr/ValueSet-TypeCarteVS.md)
-
-### Resource Profiles
-
-* [Patient français](fr/StructureDefinition-fr-patient.md)
-
-### Extensions
-
-* [EyeColor](fr/StructureDefinition-EyeColor.md)
+* [BPI-ENS](fr/Basic-BPI-ENS.md)
+* [BPI-Instance-Logicielle](fr/Basic-BPI-Instance-Logicielle.md)
+* [BPI-Serveur-Multi-Terminologies](fr/Basic-BPI-Serveur-Multi-Terminologies.md)
+* [BPI-Systeme-Information](fr/Basic-BPI-Systeme-Information.md)
+* [BPI-Utilisateur](fr/Basic-BPI-Utilisateur.md)
 
 ### ImplementationGuides
 
-* [ANS IG Example](fr/ImplementationGuide-ans.fhir.fr.test_ig_bpit.md)
-
-### Examples
-
-* [frpatient-exemple (Patient)](fr/Patient-frpatient-exemple.md)
+* [Test IG BPI](fr/ImplementationGuide-ans.fhir.fr.test_ig_bpit.md)

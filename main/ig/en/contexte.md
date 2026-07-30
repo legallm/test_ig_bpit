@@ -1,4 +1,4 @@
-# Contexte - ANS IG Example v0.1.0
+# Contexte - Test IG BPI v0.1.0
 
 ## Contexte
 
