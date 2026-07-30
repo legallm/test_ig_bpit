@@ -1,33 +1,32 @@
-@startuml test
-!include <edgy/edgy>
+@startuml relations_acteurs
+skinparam componentStyle rectangle
 
-$organisationFacet(ENS, ens) {
-	$asset("Ressource(s) sémantique(s)", rs_ens)
-	$productFacet("Système d'Information", si_ens)
-	$asset("Catalogue de ressources sémantiques", cat_ens)
+frame "ENS" {
+	[Ressource(s) sémantique(s)] as rs_ens
+	[Système d'Information] as si_ens
+	[Catalogue de ressources sémantiques] as cat_ens
 }
 
-$productFacet(SMT){
-	$asset("Ressource(s) sémantique(s)", rs_smt)
+frame "SMT" {
+	[Ressource(s) sémantique(s)] as rs_smt
 }
 
-$organisationFacet(Utilisateur1, user1) {
-    $productFacet("Instance logicielle 1", inst1)
+frame "Utilisateur1" {
+	[Instance logicielle 1] as inst1
 }
 
-$organisationFacet(Utilisateur2, user2) {
-    $productFacet("Instance logicielle 2", inst2)
+frame "Utilisateur2" {
+	[Instance logicielle 2] as inst2
 }
 
-$organisationFacet(Utilisateur3, user3) {
-    $productFacet("Instance logicielle 3", inst3)
+frame "Utilisateur3" {
+	[Instance logicielle 3] as inst3
 }
 
-$flowRight(rs_ens, cat_ens, "0..*")
-$flowLeft(rs_smt, cat_ens, "0..*")
-$flowDown(cat_ens, si_ens, "1..*")
-
-$flowDown(si_ens, inst1)
-$flowDown(si_ens, inst2)
-$flowDown(si_ens, inst3)
+rs_ens --> cat_ens : "0..*"
+rs_smt --> cat_ens : "0..*"
+cat_ens --> si_ens : "1..*"
+si_ens --> inst1
+si_ens --> inst2
+si_ens --> inst3
 @enduml
