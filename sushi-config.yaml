@@ -2,8 +2,8 @@
 
 id: ans.fhir.fr.test_ig_bpit
 canonical: https://interop.esante.gouv.fr/ig/test_ig_bpit # the last part of canonical and id must be the same
-name: ExampleIG # Should be an acronym
-title: ANS IG Example
+name: ExampleIgBpi # Should be an acronym
+title: Test IG BPI
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta sem diam, non laoreet sem.
 publisher:
   name: Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris
@@ -25,21 +25,30 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
 pages:
     index.md:
         title: Accueil
+    glossaire.md:
+        title: Glossaire
     contexte.md:
         title: Contexte
     licences.md:
         title: Licences
     gestion_catalogue.md:
         title: "Gestion du catalogue"
+    recherche.md:
+        title: Recherche
+    interoperabilite.md:
+        title: Interopérabilité
     change-log.md:
         title: "Historique des versions"
     
 menu:
     Accueil: index.html
+    Glossaire: glossaire.html
     Contexte: contexte.html
     BPI: 
         Licences: licences.html
         Gestion du catalogue: gestion_catalogue.html
-    Ressources de conformité: artifacts.html
-    Documentation des IG: new-tab https://interop.esante.gouv.fr/ig/documentation/
+        Recherche: recherche.html
+        Interopérabilité: interoperabilite.html
     Historique des versions: change-log.html
+    Documentation des IG: new-tab https://interop.esante.gouv.fr/ig/documentation/
+    

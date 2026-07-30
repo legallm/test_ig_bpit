@@ -1,0 +1,33 @@
+@startuml test
+!include <edgy/edgy>
+
+$organisationFacet(ENS, ens) {
+	$asset("Ressource(s) sémantique(s)", rs_ens)
+	$productFacet("Système d'Information", si_ens)
+	$asset("Catalogue de ressources sémantiques", cat_ens)
+}
+
+$productFacet(SMT){
+	$asset("Ressource(s) sémantique(s)", rs_smt)
+}
+
+$organisationFacet(Utilisateur1, user1) {
+    $productFacet("Instance logicielle 1", inst1)
+}
+
+$organisationFacet(Utilisateur2, user2) {
+    $productFacet("Instance logicielle 2", inst2)
+}
+
+$organisationFacet(Utilisateur3, user3) {
+    $productFacet("Instance logicielle 3", inst3)
+}
+
+$flowRight(rs_ens, cat_ens, "0..*")
+$flowLeft(rs_smt, cat_ens, "0..*")
+$flowDown(cat_ens, si_ens, "1..*")
+
+$flowDown(si_ens, inst1)
+$flowDown(si_ens, inst2)
+$flowDown(si_ens, inst3)
+@enduml

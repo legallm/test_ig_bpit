@@ -5,10 +5,18 @@ Morbi at erat odio. Curabitur malesuada enim eu metus molestie lobortis. Morbi v
 
 ### Recommandations
 
-| ID     | Recommandation             | Rationalisation | Exemple     |
-| ------ | -------------------------- | --------------- | ----------- |
-| LIC-01 | Lorem ipsum dolor sit amet | Lorem ipsum     | Lorem ipsum |
-| LIC-02 | Lorem ipsum dolor sit amet |                 | Lorem ipsum |
-| LIC-03 | Lorem ipsum dolor sit amet | Lorem ipsum     |             |
-| LIC-04 | Lorem ipsum dolor sit amet | Lorem ipsum     |             |
-| LIC-05 | Lorem ipsum dolor sit amet |
+| ID     | Détails                    | Rationnalisation | Exemple     |
+| ------ | -------------------------- | ---------------- | ----------- |
+| INT-01 | Lorem ipsum dolor sit amet | Lorem ipsum      | Lorem ipsum |
+| INT-02 | Lorem ipsum dolor sit amet |                  | Lorem ipsum |
+| INT-03 | Lorem ipsum dolor sit amet |                  | Lorem ipsum |
+| INT-04 | Lorem ipsum dolor sit amet |                  |             |
+| INT-05 | Lorem ipsum dolor sit amet |                  |             |
+| INT-06 | Lorem ipsum dolor sit amet |                  |             |
+| INT-07 | Lorem ipsum dolor sit amet | Lorem ipsum      |             |
+| INT-08 | Lorem ipsum dolor sit amet |                  |             |
+| INT-09 | Lorem ipsum dolor sit amet |                  |             |
+| INT-10 | Lorem ipsum dolor sit amet |                  |             |
+| INT-11 | Lorem ipsum dolor sit amet |                  |             |
+| INT-12 | Lorem ipsum dolor sit amet |                  |             |
+| INT-13 | Lorem ipsum dolor sit amet |                  |             |

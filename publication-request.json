@@ -8,7 +8,7 @@
   "title": "ANS IG Example",
   "first": true,
   "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta sem diam, non laoreet sem.",
-  "ci-build": "https://legallm.github.io/test_ig_bpit",
+  "ci-build": "https://ansforge.github.io/test_ig_bpit",
   "category": "[todo]",
   "introduction": "[todo]",
   "changes": "change-log.html"
