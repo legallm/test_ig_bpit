@@ -2,7 +2,7 @@
 // Acteur Catalogue de Ressources Sémantiques
 // ===========================================================================
 
-Instance: BPI-Catalogue-Ressources-Sémantiques
+Instance: BPI-Catalogue-Ressources-Semantiques
 InstanceOf: ActorDefinition
 Title: "BPI Catalogue de Ressources Sémantiques"
 Usage: #definition

@@ -2,7 +2,7 @@
 // Acteur Ressource Sémantique
 // ===========================================================================
 
-Instance: BPI-Ressource-Sémantique
+Instance: BPI-Ressource-Semantique
 InstanceOf: ActorDefinition
 Title: "BPI Ressource Sémantique"
 Usage: #definition
